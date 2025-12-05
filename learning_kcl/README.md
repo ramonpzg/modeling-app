@@ -4,12 +4,13 @@ A comprehensive, hands-on tutorial series that teaches you Rust and KCL simultan
 
 ## What This Is
 
-This is a 10-part tutorial series designed to teach you:
+This is a 13-part tutorial series designed to teach you:
 - **Rust fundamentals** (ownership, traits, async, error handling)
 - **KCL deeply** (parsing, execution, stdlib, CAD features)
 - **Practical skills** to contribute to the KCL project
+- **Advanced integration** with tldraw for infinite canvas CAD
 
-The goal: By the end, you'll have built a Jupyter kernel for KCL and be ready to contribute meaningfully to the language itself.
+The goal: By the end, you'll have built a Jupyter kernel for KCL, created a novel tldraw+KCL integration with AI-powered sketch-to-code conversion, and be ready to contribute meaningfully to the language itself.
 
 ## Who This Is For
 
@@ -146,14 +147,44 @@ Polish your Jupyter kernel for contribution. Write tests, documentation, and cre
 
 ---
 
+### Part 11: Integrating KCL with tldraw
+**What you'll learn:** tldraw custom shapes, KCL code blocks on infinite canvas, real-time execution
+
+Build a custom tldraw integration where KCL code runs inside tldraw shapes. Create an infinite canvas for CAD exploration with mixed-fidelity design (sketches + code + geometry side by side).
+
+**Time investment:** 5-7 hours
+**Prerequisites:** Parts 1-10, basic React/TypeScript knowledge
+
+---
+
+### Part 12: 3D Geometry Visualization in tldraw
+**What you'll learn:** Three.js in tldraw shapes, geometry conversion, real-time linking
+
+Add 3D geometry viewers as tldraw shapes. Link KCL code to geometry visualization with automatic updates. Render CAD models with proper lighting, materials, and camera controls. Export to STL.
+
+**Time investment:** 6-8 hours
+**Prerequisites:** Parts 1-11
+
+---
+
+### Part 13: AI-Powered Sketch to KCL
+**What you'll learn:** Vision AI integration, makereal-style conversion, sketch recognition
+
+Build AI-powered sketch-to-code conversion using GPT-4V or Claude. Draw rough mechanical sketches, click a button, and watch AI generate parametric KCL code. Complete the loop: sketch → code → geometry → refinement.
+
+**Time investment:** 6-8 hours
+**Prerequisites:** Parts 1-12, OpenAI or Anthropic API key
+
+---
+
 ## Total Time Investment
 
-**40-50 hours** spread over several weeks. This assumes:
+**60-75 hours** spread over several weeks. This assumes:
 - You do the reading (not just skimming)
 - You complete the exercises (critical for learning)
 - You experiment beyond the examples (encouraged)
 
-This is not a weekend project. It's a serious investment in learning two non-trivial technologies deeply.
+This is not a weekend project. It's a serious investment in learning multiple non-trivial technologies deeply: Rust, KCL, compilers, CAD, React, Three.js, and AI integration.
 
 ## How to Use This Series
 
@@ -180,6 +211,9 @@ By the end, you'll have:
 - **Parametric CAD models** (Part 8)
 - A **complete Jupyter kernel** (Part 9)
 - A **pull request** to the KCL project (Part 10)
+- A **tldraw integration** with KCL code blocks (Part 11)
+- **3D geometry viewers** in tldraw shapes with real-time updates (Part 12)
+- **AI-powered sketch-to-code** conversion (makereal for CAD) (Part 13)
 
 ## Beyond This Series
 
